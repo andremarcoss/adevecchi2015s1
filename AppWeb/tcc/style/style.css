@@ -1,0 +1,231 @@
+/*
+ * Projeto:
+ *  - Ponto Eletrônico Digital
+ *
+ * Descrição:
+ *  - TCC para a Faccamp Facundade Campo Limpo Paulista,
+ *    como requesito parcial para obtenção do título de
+ *    Bacharel em Ciência da Computação.
+ *
+ * criado em 26 Abril 2015
+ * by André Devecchi
+ * contato: andre.devecchi@gmail.com
+ * ----------------------------------------------------------------------------
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2014 Devecchi, André; Silva, André; faccuser@gmail.com
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+body {
+	background-color: #D3D3D3;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 14px;
+}
+
+#main {
+	width: 760px;
+	margin: 60px auto 0 auto;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+#logo {
+	width: 265px;
+	height: 117px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	background-color: #fff; 
+	text-shadow: 0 0 20px #660, 0 -10px 20px #660, 0 10px 20px #660, -20px 0 40px #660, 20px 0 40px #660;
+}
+
+#sair {
+	width: 94%;
+	margin: 30px auto 5px auto;
+}
+
+#sair a {
+	text-decoration: none;
+	color: #660;
+}
+
+#sair a:active {
+	color: #660;
+}
+
+#sair a:visited {
+	color: #660;
+}
+
+#sair a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+form {
+	width: 270px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+fieldset {
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+}
+
+legend {
+	font-weight: bold;
+	color: #660;
+}
+
+input {
+	width: 250px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type=submit] {
+	width: 260px;
+	color: #660;
+	font-weight: bold;
+}
+
+#selecao {
+	width: 94%;
+	margin: 2px auto 5px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#selecao label {
+	color: #660;
+	font-weight: bold;
+}
+
+#selecao select {
+	width: 208px;
+	height: 30px;
+	font-weight: bold;
+	color: #1C1C1C;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#selecao p {
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+	margin: 0;
+}
+
+#loader {
+	display: none;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#selecao span img {
+	width: 32px;
+	height: 32px;
+}
+
+#registro {
+	width: 94%;
+	height: 204px;
+	margin: 10px auto 5px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#registro p {
+	margin: 0;
+	color: #660;
+	font-weight: bold;
+}
+
+#registro p.normal {
+	font-weight: normal;
+}
+
+#registro a {
+	text-decoration: none;
+}
+
+th {
+	width: 100px;
+	height: 30px;
+	color: #fff;
+	background-color: blue;
+	border-radius: 4px;
+}
+/*
+th:first-child {
+	border-top-left-radius: 4px;
+}
+
+th:last-child {
+	border-top-right-radius: 4px;
+}
+*/
+td {
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.linha1 {
+	background-color: #C6E2FF;
+}
+
+.linha2 {
+	background-color: #C1FFC1;
+}
+
+#void {
+	margin: 0;
+	padding: 0;
+}
+
+#footer {
+	width: 760px;
+	height: 30px;
+	margin: 5px auto 0 auto;
+	line-height: 30px;
+	vertical-align: middle;
+	font-size: 14px;
+	text-align: center;
+	color: gray;
+	border-radius: 6px;
+	background-color: #fff;
+}
